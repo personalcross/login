@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const passwordInput = document.getElementById("login-password");
     const errorElement = document.querySelector(".error");
 
-    const redirectUrl = "https://personalcross.github.io/nosso-time/";
+    const redirectUrl = "https://personalcross.github.io/home/";
 
     // Check if the user is already authenticated
     auth.onAuthStateChanged((user) => {
